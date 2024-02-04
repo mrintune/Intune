@@ -1,4 +1,4 @@
-﻿# Install WriteAscii. Change Mr Intune with your organization Name in line5.
+﻿# Install WriteAscii. ( Change MR INTUNE with your organization Name in Line5)
 Function Confirm-WriteAscii
 {
     Install-Script -Name "WriteAscii" -Repository "PSGallery" -Force
@@ -53,9 +53,9 @@ Function Get-HardwareID 
 
  
 
-       # Sync the device with AAD/Intune/AutoPilot
+       # Sync the device with AAD/Intune/AutoPilot ( Change group tag according to your choice else leave it blank Line58 )
     Write-Host "Getting hardware identification...`nImport the Hash to Autopilot. `nAssign the device to the AAD Security groups. `nSet Group Tag for the device." -ForegroundColor Yellow
-    C:\'Program Files'\WindowsPowerShell\Scripts\Get-WindowsAutoPilotInfo.ps1 -Online -Assign -GroupTag "US"
+    C:\'Program Files'\WindowsPowerShell\Scripts\Get-WindowsAutoPilotInfo.ps1 -Online -Assign -GroupTag "Standard"
 
  
 
