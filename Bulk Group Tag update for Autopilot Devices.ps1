@@ -23,7 +23,7 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser -Force
 Import-Module -Name Microsoft.Graph -force
 Import-Module -Name WindowsAutoPilotIntune -force
 Connect-MgGraph 
-# get list of serial numbers from CSV file
+# Enter the serials text filepath location
 $FilePathLocation = Read-Host "Enter Serials text file path location"
 $serialNumbers = Get-Content -Path $FilePathLocation
 # for each serial number, get entra device object id
