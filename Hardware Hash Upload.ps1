@@ -1,4 +1,4 @@
-﻿# Install WriteAscii. ( Change MR INTUNE with your organization Name in Line5)
+﻿# Install WriteAscii. ( Change MR INTUNE with your organization Name in Line number 5)
 Function Confirm-WriteAscii
 {
     Install-Script -Name "WriteAscii" -Repository "PSGallery" -Force
