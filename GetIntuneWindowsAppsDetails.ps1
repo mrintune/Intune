@@ -7,6 +7,7 @@ Description:
     This script pulls all Windows apps from Microsoft Intune via Microsoft Graph API,
     including their assignment groups, dependency count, superseding and superseded app counts.
     The results are exported to a CSV file defined by the user.
+Feedback: misterintune@gmail.com
 ────────────────────────────────────────────────────────────
 #>
 
