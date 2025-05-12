@@ -2,7 +2,7 @@
 ────────────────────────────────────────────────────────────
 Publisher  : Mr Intune
 Version    : 1.0
-Date       : 12-05-2024
+Date       : 12-05-2025
 Description: 
     This script pulls all Windows apps from Microsoft Intune via Microsoft Graph API,
     including their assignment groups, dependency count, superseding and superseded app counts.
